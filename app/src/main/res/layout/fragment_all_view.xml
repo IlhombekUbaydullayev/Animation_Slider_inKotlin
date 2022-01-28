@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cbcbcb"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="5dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_title_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Telegram X"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_info_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="The world`s fastest messaging app. it is free and secure"
+        android:textColor="#DD000000"
+        android:textSize="18sp" />
+
+</LinearLayout>
