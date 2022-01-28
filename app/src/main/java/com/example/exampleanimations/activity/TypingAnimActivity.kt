@@ -49,6 +49,9 @@ class TypingAnimActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.b_sequential -> animation =
                 AnimationUtils.loadAnimation(applicationContext, R.anim.sequential)
+
+            R.id.b_together -> animation =
+                AnimationUtils.loadAnimation(applicationContext, R.anim.together)
         }
         ivAnimation.startAnimation(animation)
     }

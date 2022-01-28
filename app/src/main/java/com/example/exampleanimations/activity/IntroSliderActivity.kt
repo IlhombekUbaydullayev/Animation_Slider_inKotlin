@@ -9,7 +9,7 @@ import com.example.exampleanimations.adapter.ViewPagerAdapter
 import com.example.exampleanimations.fragment.PagerFragment
 import com.example.exampleanimations.model.PagerInfo
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-import java.io.InputStream
+
 
 class IntroSliderActivity : AppCompatActivity() {
 
